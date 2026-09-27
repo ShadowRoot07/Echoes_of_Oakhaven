@@ -1,0 +1,85 @@
+# ==========================================
+# Entornos Virtuales de Python
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Archivos de Cache de Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Configuración y Variables de Entorno (Django)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.log
+local_settings.py
+
+# ==========================================
+# Base de Datos Local
+# ==========================================
+*.sqlite3
+*.db
+
+# ==========================================
+# Archivos Estáticos y Recopilados de Django
+# ==========================================
+# Carpeta genérica donde collectstatic reúne los archivos para producción
+/staticfiles/
+# Archivos subidos por los usuarios (media)
+/media/
+
+# ==========================================
+# Configuración de Editores y IDEs
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# Editor config y temporales de Vim / Neovim
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Archivos de Sistema Operativo
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+# ==========================================
+# Assets de Desarrollo / Temporales del Juego
+# ==========================================
+# Si guardas archivos fuente de edición (e.g., Aseprite, Photoshop) que no deben ir al repo:
+*.aseprite
+*.psd
+*.xcf

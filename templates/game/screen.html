@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="game-container">
+    <h1>Echoes of Oakhaven</h1>
+    <p>Presiona <strong>ESPACIO</strong> para atacar | <strong>E</strong> para interactuar</p>
+    <canvas id="gameCanvas" width="640" height="512"></canvas>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/assets.js' %}"></script>
+<script src="{% static 'js/engine.js' %}"></script>
+{% endblock %}
